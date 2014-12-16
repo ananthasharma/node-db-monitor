@@ -66,7 +66,7 @@ function getQueryResponse(sql, isDML, paramArray){
 		}
 	}
 	else{
-		pool.query(sql, function(error, result){
+		conn.query(sql, function(error, result){
 			resp=result;
 		});
 	}
