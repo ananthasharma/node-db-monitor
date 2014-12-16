@@ -1,0 +1,31 @@
+{
+  "name": "db-monitor",
+  "version": "0.1.0",
+  "description": "an application which can allow a db to be queried using ReST API based on predefined queries.",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "dependencies": {
+    "express": "^4.0.0",
+    "any-db": "^2.1.0",
+    "any-db-mssql":"^0.1.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ananthasharma/node-db-monitor"
+  },
+  "keywords": [
+    "node",
+    "jdbc",
+    "db-monitor",
+    "express"
+  ],
+  "author": "Anantha Sharma",
+  "license": "MIT"
+}
+
+
