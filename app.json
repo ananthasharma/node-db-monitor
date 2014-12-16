@@ -1,0 +1,7 @@
+{
+  "name": "Node DB-Monitor application",
+  "description": "an application which can allow a db to be queried using ReST API based on predefined queries.",
+  "repository": "https://github.com/ananthasharma/node-db-monitor",
+  "logo": "",
+  "keywords": ["node", "express", "db-monitor", "jdbc"]
+}
