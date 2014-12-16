@@ -1,0 +1,33 @@
+{  
+   "dbUrl":"jdbc:sqlserver://user:password@host:port/dbName",
+   "minConnections":10,
+   "maxConnections":50,
+   "queries":[
+         {  
+         	"name":"1abcd",
+            "queryString":"SELECT * from SomeInterestingTable",
+            "isDML":false,
+            "params":[  
+
+            ]
+      },
+         {  
+         	"name":"2abcd",
+            "queryString":"SELECT * from SomeOtherInterestingTable",
+            "isDML":false,
+            "params":[  
+
+            ]
+      },
+         {  
+         	"name":"3abcd",
+            "queryString":"INSERT INTO SomeHungryTable (FIELD1, FIELD2, FIELD3) VALUES (?,?,?)",
+            "isDML":true,
+            "params":[  
+               "field1",
+               "field2",
+               "field3"
+            ]
+      }
+   ]
+}
